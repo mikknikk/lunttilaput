@@ -40,7 +40,7 @@ grep -E "virhe|error" loki.txt        # useampi vaihtoehto kerralla
 ps aux | grep -i python               # käynnissä olevat python-prosessit
 grep -c "^#" tiedosto.py              # kommenttirivien määrä
 grep -o "IP: [0-9.]*" loki.txt        # poimi vain osumat, ei koko riviä
-grep -rl "vanha-nimi" . | xargs sed -i 's/vanha-nimi/uusi-nimi/g'
+grep -rl "vanha-nimi" . | xargs sed -i 's/vanha-nimi/uusi-nimi/g'   # GNU sed; macOS:n BSD-sed vaatii: sed -i '' 's/.../.../ '
 grep --include="*.py" -rn "import os" .   # rajaa tiedostotyyppiin
 grep --exclude-dir=node_modules -rn "TODO" .
 ```

@@ -120,5 +120,5 @@ title: Sivun otsikko
 ```
 
 Tämä sivusto tukee taulukoita ja koodilohkoja (`tables`- ja
-`fenced_code`-laajennukset), mutta ei esim. tehtävälistoja tai
-alaviitteitä ilman lisälaajennuksia generaattoriin.
+`fenced_code`-laajennukset), mutta ei esim. tehtävälistoja, yliviivausta
+(`~~teksti~~`) tai alaviitteitä ilman lisälaajennuksia generaattoriin.

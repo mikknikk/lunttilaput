@@ -26,13 +26,12 @@ Nanon alareunassa näkyvät komennot: `^` tarkoittaa `Ctrl`, `M-` tarkoittaa `Al
 
 | Näppäin | Kuvaus |
 | --- | --- |
-| `Ctrl+K` | Leikkaa rivi |
+| `Ctrl+K` | Leikkaa rivi (tai merkitty valinta, jos merkintä on aktiivinen) |
 | `Ctrl+U` | Liitä leikattu rivi |
 | `Ctrl+Shift+6` tai `Alt+A` | Aloita merkintä (valinta) |
-| `Ctrl+6` | Kopioi valinta |
-| `Alt+6` | Leikkaa valinta |
-| `Ctrl+Z` | Kumoa |
-| `Ctrl+Shift+Z` tai `M-U` | Tee uudelleen |
+| `Alt+6` | Kopioi valinta |
+| `Alt+U` | Kumoa |
+| `Alt+E` | Tee uudelleen |
 | `Tab` / `Shift+Tab` | Sisennä / poista sisennys (valinnalle) |
 | `Alt+3` | Kommentoi/poista kommentti rivi(t) |
 
@@ -42,8 +41,7 @@ Nanon alareunassa näkyvät komennot: `^` tarkoittaa `Ctrl`, `M-` tarkoittaa `Al
 | --- | --- |
 | `Ctrl+W` | Hae |
 | `Ctrl+\` | Hae ja korvaa |
-| `Alt+W` | Hae seuraava osuma |
-| `Alt+Q` | Hae edellinen osuma |
+| `Alt+W` | Hae seuraava osuma (toista edellinen haku) |
 | `Alt+R` (haun aikana) | Vaihda tavallisen haun ja regex-haun välillä |
 
 ## Liikkuminen
@@ -52,7 +50,7 @@ Nanon alareunassa näkyvät komennot: `^` tarkoittaa `Ctrl`, `M-` tarkoittaa `Al
 | --- | --- |
 | `Ctrl+A` / `Ctrl+E` | Rivin alkuun / loppuun |
 | `Ctrl+Y` / `Ctrl+V` | Sivu ylös / alas |
-| `Alt+G` | Siirry tietylle riville |
+| `Ctrl+_` | Siirry tietylle riville (ja sarakkeeseen) |
 | `Ctrl+Left` / `Ctrl+Right` | Sana taaksepäin / eteenpäin |
 | `Alt+\` / `Alt+/` | Tiedoston alkuun / loppuun |
 

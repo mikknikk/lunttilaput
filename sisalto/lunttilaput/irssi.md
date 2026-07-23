@@ -6,7 +6,7 @@ title: Irssi
 
 ```
 /connect irc.esimerkki.fi
-/server add -auto -network Esimerkki irc.esimerkki.fi 6697
+/server add -auto -network Esimerkki -tls irc.esimerkki.fi 6697
 /network add -sasl_mechanism PLAIN -sasl_username nimi -sasl_password salasana Esimerkki
 /connect Esimerkki
 ```
@@ -34,8 +34,7 @@ title: Irssi
 | `/window move <numero>` | Siirrä ikkuna toiseen paikkaan |
 | `/window list` | Listaa kaikki ikkunat |
 | `/layout save` | Tallenna ikkunoiden asettelu |
-| `/split` | Jaa näyttö kahteen ikkunaan |
-| `/window hide` / `/window show` | Piilota / näytä ikkuna jaetusta näkymästä |
+| `/window new split` | Jaa näyttö kahteen ikkunaan |
 
 ## Yksityisviestit ja huomiot
 

@@ -116,6 +116,13 @@ git push --tags
 
 ## .gitignore ja siivous
 
+```
+# .gitignore-esimerkki: tiedostot/kansiot, joita git ei koskaan seuraa
+*.log
+build/
+!build/pidettava.txt   # huutomerkki = poikkeus säännöstä
+```
+
 ```bash
 git clean -n     # näytä mitä poistettaisiin (kuivaharjoittelu)
 git clean -fd     # poista seuraamattomat tiedostot ja kansiot

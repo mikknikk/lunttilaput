@@ -85,10 +85,15 @@ awk -F, '{ summa[$2] += $3 } END { for (k in summa) print k, summa[k] }' data.cs
 
 ```bash
 awk '
-function neliö(x) { return x * x }
-{ print neliö($1) }
+function nelio(x) { return x * x }
+{ print nelio($1) }
 ' luvut.txt
 ```
+
+Käytä funktioiden nimissä pelkkiä ASCII-kirjaimia (ei ä/ö/å) — monet
+awk-toteutukset (mm. mawk, alkuperäinen awk) eivät hyväksy muita kuin
+ASCII-merkkejä tunnisteissa, joten esim. `neliö` voi aiheuttaa
+syntaksivirheen.
 
 ## Tulosteen muotoilu
 
