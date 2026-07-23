@@ -1,5 +1,5 @@
 ---
-title: Vimin lunttilappu
+title: Vim
 ---
 
 ## Tilat

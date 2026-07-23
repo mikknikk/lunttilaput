@@ -1,5 +1,5 @@
 ---
-title: Nanon lunttilappu
+title: Nano
 ---
 
 ## Avaaminen

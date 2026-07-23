@@ -1,5 +1,5 @@
 ---
-title: SSH:n lunttilappu
+title: SSH
 ---
 
 ## Peruskäyttö

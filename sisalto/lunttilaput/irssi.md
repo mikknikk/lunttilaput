@@ -1,5 +1,5 @@
 ---
-title: Irssin lunttilappu
+title: Irssi
 ---
 
 ## Yhdistäminen

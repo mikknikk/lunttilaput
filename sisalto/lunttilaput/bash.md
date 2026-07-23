@@ -1,5 +1,5 @@
 ---
-title: Bashin lunttilappu
+title: Bash
 ---
 
 ## Muuttujat

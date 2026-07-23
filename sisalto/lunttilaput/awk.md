@@ -1,5 +1,5 @@
 ---
-title: Awkin lunttilappu
+title: Awk
 ---
 
 ## Perusmuoto

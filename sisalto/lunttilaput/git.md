@@ -1,5 +1,5 @@
 ---
-title: Gitin lunttilappu
+title: Git
 ---
 
 ## Perusworkflow
