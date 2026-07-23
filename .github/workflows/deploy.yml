@@ -1,0 +1,36 @@
+name: Julkaise sivusto
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sisalto/**'
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae sisältörepo
+        uses: actions/checkout@v4
+
+      - name: Generoi staattinen sivusto
+        uses: mikknikk/md-html-sivustogeneraattori@v1
+        with:
+          content-dir: sisalto
+          output-dir: _site
+
+      - name: Aseta SSH-avain
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Lisää palvelimen host key tunnetuksi
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Synkronoi tiedostot palvelimelle
+        run: |
+          rsync -avz --delete _site/ \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_TARGET_DIR }}"
