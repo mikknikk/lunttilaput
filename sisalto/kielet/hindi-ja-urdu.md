@@ -8,68 +8,83 @@ muodollisessa sanastossa. Hindi lainaa juhlavan sanastonsa sanskritista ja
 kirjoitetaan devanagari-kirjaimistolla (vasemmalta oikealle). Urdu lainaa
 vastaavan sanastonsa persiasta ja arabiasta ja kirjoitetaan
 nastaliq-kirjaimistolla (arabialaispohjainen, oikealta vasemmalle).
-Arkipuhe — tervehdykset, numerot, peruskielioppi — on kuitenkin lähes
-identtistä molemmissa.
 
-## Kirjoitusjärjestelmä
+## Kirjoitusjärjestelmä ja translitteraatio
 
-- **Devanagari** (hindi): tavuaakkosto (abugida), jokaisessa
-  konsonanttimerkissä on sisäänrakennettu "a"-vokaali, jota muutetaan
-  diakriittisillä merkeillä.
-- **Nastaliq** (urdu): kursiivinen persialais-arabialainen kirjaimisto,
-  kirjoitetaan oikealta vasemmalle. Tällä sivulla urdu-teksti saattaa näyttää
-  sekoittuvan ympäröivään suomenkieliseen tekstiin, koska selain vaihtaa
-  kirjoitussuunnan automaattisesti kesken rivin.
+Kumpikin kieli esitetään tällä sivulla ensisijaisesti omalla
+kirjoitusjärjestelmällään. Hindille (devanagari) on lisätty tieteellinen
+**ISO 15919** -translitteraatio (kansainvälinen standardi devanagarin ja
+sukukirjaimistojen romanisoinnille). **Urdulle ei ole olemassa vastaavaa
+ISO-standardia** — vain kirjastoalan ALA-LC-taulukko ja erilaisia
+epävirallisia järjestelmiä — joten urdu esitetään tässä pelkällä
+nastaliq-kirjoituksella ilman translitteraatiota.
+
+ISO 15919 käyttää diakriittisiä merkkejä: pitkä vokaali merkitään
+makronilla (ā, ī, ū), retrofleksiiviset konsonantit alapisteellä (ṭ, ḍ,
+ṇ), ja nasaalimerkki (anusvara) merkitään ṁ:llä. Devanagarin lopussa
+oleva ääntämätön "a" (schwa) on jätetty translitteraatiosta pois, kuten
+puhutussa hindissä.
 
 ## Tervehdykset ja kohteliaisuusfraasit
 
-| Suomeksi | Ääntäminen | Hindi | Urdu |
+| Suomeksi | Hindi | ISO 15919 | Urdu |
 | --- | --- | --- | --- |
-| Terve / rauha sinulle | as-salaamu alaikum | नमस्ते (namaste, yleiskäyttöinen) | السلام علیکم |
-| (vastaus edelliseen) | wa alaikum as-salaam | — | وعلیکم السلام |
-| Kiitos | shukriya / dhanyavaad | धन्यवाद | شکریہ |
-| Kyllä | haan | हाँ | ہاں |
-| Ei | nahin | नहीं | نہیں |
-| Anteeksi | maaf kijiye | माफ़ कीजिए | معاف کیجیے |
-| Ei se mitään / hyvä on | theek hai | ठीक है | ٹھیک ہے |
+| Terve / rauha sinulle | नमस्ते | namastē | السلام علیکم |
+| (vastaus edelliseen) | — | — | وعلیکم السلام |
+| Kiitos | धन्यवाद | dhanyavād | شکریہ |
+| Kyllä | हाँ | hā̃ | ہاں |
+| Ei | नहीं | nahīṁ | نہیں |
+| Anteeksi | माफ़ कीजिए | māf kījiē | معاف کیجیے |
+| Hyvä on / ei se mitään | ठीक है | ṭhīk hai | ٹھیک ہے |
 
 ## Peruslauseet
 
-| Suomeksi | Translitterointi |
-| --- | --- |
-| Mikä sinun nimesi on? | Aapka naam kya hai? |
-| Minun nimeni on ... | Mera naam ... hai |
-| Mitä kuuluu? | Aap kaise hain? |
-| En ymmärrä | Mujhe samajh nahin aaya |
-| Puhutko englantia? | Kya aap angrezi bolte hain? |
+| Suomeksi | Hindi | ISO 15919 | Urdu |
+| --- | --- | --- | --- |
+| Mikä sinun nimesi on? | आपका नाम क्या है? | āpkā nām kyā hai? | آپ کا نام کیا ہے؟ |
+| Minun nimeni on ... | मेरा नाम ... है | mērā nām ... hai | میرا نام ... ہے |
+| Mitä kuuluu? | आप कैसे हैं? | āp kaisē haiṁ? | آپ کیسے ہیں؟ |
+| En ymmärrä | मुझे समझ नहीं आया | mujhē samajh nahīṁ āyā | مجھے سمجھ نہیں آیا |
+| Puhutko englantia? | क्या आप अंग्रेज़ी बोलते हैं? | kyā āp aṁgrēzī bōltē haiṁ? | کیا آپ انگریزی بولتے ہیں؟ |
 
 ## Pronominit
 
-| Suomeksi | Translitterointi |
-| --- | --- |
-| minä | main |
-| sinä (epämuodollinen) | tum |
-| te/Te (kohtelias) | aap |
-| hän/se | woh (vo) |
-| me | hum |
+| Suomeksi | Hindi | ISO 15919 | Urdu |
+| --- | --- | --- | --- |
+| minä | मैं | maiṁ | میں |
+| sinä (epämuodollinen) | तुम | tum | تم |
+| te/Te (kohtelias) | आप | āp | آپ |
+| hän/se | वह | vah | وہ |
+| me | हम | ham | ہم |
 
 ## Kysymyssanat
 
-| Suomeksi | Translitterointi |
-| --- | --- |
-| mitä | kya |
-| kuka | kaun |
-| missä | kahaan |
-| milloin | kab |
-| miksi | kyun |
-| miten | kaise |
+| Suomeksi | Hindi | ISO 15919 | Urdu |
+| --- | --- | --- | --- |
+| mitä | क्या | kyā | کیا |
+| kuka | कौन | kaun | کون |
+| missä | कहाँ | kahā̃ | کہاں |
+| milloin | कब | kab | کب |
+| miksi | क्यों | kyōṁ | کیوں |
+| miten | कैसे | kaisē | کیسے |
 
 ## Numerot 1–10
 
-ek, do, teen, chaar, paanch, chhe, saat, aath, nau, das
+| Hindi | ISO 15919 | Urdu |
+| --- | --- | --- |
+| एक | ēk | ایک |
+| दो | dō | دو |
+| तीन | tīn | تین |
+| चार | cār | چار |
+| पांच | pāṁc | پانچ |
+| छह | chah | چھ |
+| सात | sāt | سات |
+| आठ | āṭh | آٹھ |
+| नौ | nau | نو |
+| दस | das | دس |
 
-Numerot ääntyvät ja kirjoitetaan (translitteroituna) samoin hindissä ja
-urdussa — tämä on yksi selvimmistä yhteisistä piirteistä.
+Numerot ääntyvät lähes identtisesti hindissä ja urdussa — yksi selvimmistä
+yhteisistä piirteistä, vaikka kirjoitusjärjestelmät eroavat täysin.
 
 ## Kielioppihuomioita
 
@@ -77,5 +92,5 @@ urdussa — tämä on yksi selvimmistä yhteisistä piirteistä.
   vapaammassa mutta yleensä SVO-painotteisessa järjestyksessä.
 - Verbit taipuvat subjektin suvun mukaan (maskuliini/feminiini) monissa
   aikamuodoissa — tätä ei suomessa eikä englannissa ole.
-- Kohteliaisuustaso vaikuttaa sekä pronominin valintaan (tum vs. aap) että
-  verbin taivutukseen.
+- Kohteliaisuustaso vaikuttaa sekä pronominin valintaan (तुम/تم vs.
+  आप/آپ) että verbin taivutukseen.
