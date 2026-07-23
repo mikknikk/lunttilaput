@@ -20,10 +20,12 @@ kutsuu.
 
 ## Käyttöönotto (kertaluontoiset asetukset)
 
-1. Julkaise `md-html-sivustogeneraattori`-repo ja tägää siitä release `v1`
-   (`git tag v1 && git push --tags`).
+1. Julkaise `md-html-sivustogeneraattori`-repo `main`-haaraan.
 2. Päivitä `.github/workflows/deploy.yml` viittaamaan oikeaan
-   organisaatioon/repoon (`uses: <org>/md-html-sivustogeneraattori@v1`).
+   organisaatioon/repoon (`uses: <org>/md-html-sivustogeneraattori@main`).
+   `@main` tarkoittaa, että workflow käyttää aina generaattorin uusinta
+   versiota — jos generaattoriin tehty muutos rikkoo jotain, se vaikuttaa
+   heti tähänkin sivustoon.
 3. Lisää tämän repon Settings → Secrets and variables → Actions:
    - `DEPLOY_SSH_KEY` — yksityinen SSH-avain, jolla on kirjoitusoikeus vain
      kohdehakemistoon palvelimella
@@ -39,6 +41,7 @@ kutsuu.
 ```bash
 pip install markdown
 python3 ../md-html-sivustogeneraattori/build.py \
-  --content sisalto --output _site --templates ../md-html-sivustogeneraattori/templates
+  --content sisalto --output _site --templates ../md-html-sivustogeneraattori/templates \
+  --site-title "Ohjeet ja lunttilaput"
 cd _site && python3 -m http.server 8000
 ```
