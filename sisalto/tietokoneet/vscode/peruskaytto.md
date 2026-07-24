@@ -1,5 +1,5 @@
 ---
-title: VS Code
+title: Peruskäyttö
 ---
 
 ## Komentopaletti ja pikanäppäimet

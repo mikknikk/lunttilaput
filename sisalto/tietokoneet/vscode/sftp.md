@@ -1,5 +1,5 @@
 ---
-title: VS Code: SFTP
+title: SFTP
 ---
 
 Tämä lunttilappu koskee `Natizyskunk.sftp`-laajennusta — ylläpidetty
