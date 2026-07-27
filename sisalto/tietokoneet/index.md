@@ -1,3 +1,4 @@
 Nopeita lunttilappuja komentorivityökaluihin, ohjelmointikieliin ja
-kehitysympäristöihin. Jokainen sivu on itsenäinen — voit hypätä suoraan
-tarvitsemasi ohjelmiston kohdalle listasta.
+kehitysympäristöihin, jaoteltuna aihepiirin mukaan alakategorioihin.
+Jokainen sivu on itsenäinen — voit hypätä suoraan tarvitsemasi
+ohjelmiston kohdalle.
