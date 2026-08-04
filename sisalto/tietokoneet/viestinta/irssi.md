@@ -67,6 +67,41 @@ title: Irssi
 Skriptejä ja teemoja löytyy irssin skriptiarkistosta (scripts.irssi.org).
 Skriptit voivat lisätä esim. nimimerkkien värityksen tai away-ilmoitukset.
 
+## Skriptien poisto (uninstallointi)
+
+Skriptin poistaminen on kaksivaiheinen: sen pysäyttäminen nykyisestä
+istunnosta ja sen estäminen lataamasta uudelleen jatkossa.
+
+```
+/script unload skripti      " pysäytä skripti nykyisessä istunnossa (ei tarvitse .pl-päätettä)
+/script list                  " tarkista että se ei enää näy listalla
+```
+
+Pelkkä `/script unload` ei estä skriptiä latautumasta uudelleen
+seuraavalla käynnistyskerralla, jos se on asetettu automaattisesti
+ladattavaksi. Poista automaattilataus sen mukaan, kumpaa tapaa käytit
+käyttöönotossa:
+
+```bash
+# Jos skripti on ladattu autorun-kansion symlinkillä (suositeltu tapa):
+rm ~/.irssi/scripts/autorun/skripti.pl
+```
+
+```
+# Jos skripti on listattu autoload_scripts-asetuksessa:
+/set autoload_scripts skripti1 skripti2   " kirjoita lista ilman poistettavaa skriptiä
+```
+
+Lopuksi, jos haluat poistaa skriptin kokonaan levyltä (ei vain
+käytöstä):
+
+```bash
+rm ~/.irssi/scripts/skripti.pl
+```
+Pelkkä autorun-symlinkin poisto riittää, jos haluat vain lopettaa sen
+automaattilatauksen mutta säilyttää tiedoston mahdollista myöhempää
+`/script load`-komentoa varten.
+
 ## Bouncer- ja proxy-käyttö
 
 Irssi voidaan jättää pyörimään palvelimelle `screen`- tai `tmux`-istuntoon,
