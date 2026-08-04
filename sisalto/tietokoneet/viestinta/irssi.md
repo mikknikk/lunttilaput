@@ -67,6 +67,25 @@ title: Irssi
 Skriptejä ja teemoja löytyy irssin skriptiarkistosta (scripts.irssi.org).
 Skriptit voivat lisätä esim. nimimerkkien värityksen tai away-ilmoitukset.
 
+### Hyödyllisiä skriptejä
+
+| Skripti | Kuvaus |
+| --- | --- |
+| `nickcolor.pl` | Antaa jokaiselle nimimerkille oman värin — helpottaa keskustelun seuraamista vilkkailla kanavilla |
+| `adv_windowlist.pl` | Näyttää ikkunalistassa kanavien/nimimerkkien oikeat nimet pelkkien numeroiden sijaan |
+| `trackbar.pl` | Piirtää viivan kohtaan, josta viimeksi jäit lukemasta, kun vaihdat ikkunaa |
+| `screen_away.pl` | Päivittää away-tilan automaattisesti, kun irssi pyörii `screen`/`tmux`-istunnossa |
+| `go.pl` | `/go`-komento älykkäällä täydennyksellä ikkunoiden väliseen hyppäämiseen |
+| `hilightwin.pl` | Kerää kaikki hälytykset (highlight) omaan, esim. jaettuun ikkunaan |
+| `spell.pl` | Oikeinkirjoituksen tarkistus (vaatii `ispell`-asennuksen) |
+| `trigger.pl` | Yleiskäyttöinen "kun X tapahtuu, tee Y" -automaatio |
+
+```
+/script load nickcolor.pl
+/script load adv_windowlist.pl
+/script load trackbar.pl
+```
+
 ## Skriptien poisto (uninstallointi)
 
 Skriptin poistaminen on kaksivaiheinen: sen pysäyttäminen nykyisestä
