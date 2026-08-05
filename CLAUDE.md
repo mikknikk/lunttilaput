@@ -9,12 +9,25 @@ kirjoitettavaan sisältöön.
 
 ## Sisällön rakenne (`sisalto/`)
 
-- **Kielet/** — kielenopiskelijan näkökulmasta kirjoitettuja
-  kahdeksanosaisia numeroituja oppituntisarjoja (`kielet/<kieli>/
-  00-johdanto.md` ... `07-harjoituksia.md`, ks. mallina `kielet/
-  indonesia/`) — ei yksittäisiä lunttilappuja. Kaikki viisi kieltä
-  (espanja, hindi ja urdu, indonesia, japani, telugu) noudattavat tätä
-  rakennetta. **Tärkeä periaate:** vieraalla kirjoitusjärjestelmällä
+- **Kielet/** — kielenopiskelijan näkökulmasta kirjoitettuja numeroituja
+  oppituntisarjoja (`kielet/<kieli>/00-johdanto.md`, `01-...md`, jne.) —
+  ei yksittäisiä lunttilappuja. **Kahdeksanosainen rakenne**
+  (`00-johdanto.md` ... `07-harjoituksia.md`, ks. mallina `kielet/
+  indonesia/`) on järkevä OLETUS fraasikirjamaiselle kielisisällölle —
+  näin kirjoitettiin alun perin kaikki viisi kieltä (espanja, hindi ja
+  urdu, indonesia, japani, telugu) samassa commitissa, mutta se ei ole
+  pysyvä rajoite: minkä tahansa kielen kurssi voi käyttää eri
+  lukumäärää/rakennetta, jos syvempi tai muotoisesti erilainen
+  pedagoginen lähestymistapa palvelee sitä aidosti paremmin.
+  **telugu on tästä ensimmäinen esimerkki:** se käyttää nyt
+  18-lukuista rakennetta (`00`...`17`), joka menee oikeaan
+  kielioppisyvyyteen (verbien aikamuodot, kielto, sijamuotojärjestelmä,
+  partisiipit, sukulaisuussanasto ja kohteliaisuusrekisteri), ja
+  jokainen luku sisältää oppikirjamaisen lukukappaleen/dialogin, joka
+  havainnollistaa kyseisen luvun kielioppia käytännössä. Tämä on
+  dokumentoitu esimerkkinä, jota muut kielet voisivat seurata jos/kun
+  niitä joskus vastaavasti syvennetään — ei vaatimuksena, että
+  niidenkin täytyy. **Tärkeä periaate:** vieraalla kirjoitusjärjestelmällä
   kirjoitettavat kielet esitetään ensisijaisesti omalla skriptillään, ja
   mahdollinen translitteraatio noudattaa AINA virallista ISO-standardia
   silloin kun sellainen on olemassa — ei koskaan epävirallista
@@ -34,8 +47,9 @@ kirjoitettavaan sisältöön.
   lisättäessä pätee edelleen oletus (vain natiivi kirjoitusjärjestelmä),
   ellei ole vastaavan vahvaa, dokumentoitua perustetta oman
   translitterointijärjestelmän lisäämiselle. Uutta kieltä lisättäessä
-  säilytä sama kahdeksanosainen rakenne ja sama tarkkuus
-  translitteroinnissa.
+  käytä oletuksena kahdeksanosaista rakennetta ja samaa tarkkuutta
+  translitteroinnissa, ellei kielelle ole hyvää syytä syventää
+  rakennetta telugun tapaan.
 - **Tietokoneet/** — jaettu aihepiirikohtaisiin alikategorioihin: Shellit,
   Päätteet, Editorit (sis. `vscode/`-alikansio kolmannella tasolla),
   Tekstinkäsittely, Paketinhallinta, Järjestelmä ja tietoturva, Web-kehitys,
