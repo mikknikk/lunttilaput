@@ -9,7 +9,40 @@ title: 7. Kielioppihuomioita ja harjoituksia
   ilmaisemaan sijamuotoa, aikaa, persoonaa ja kohteliaisuustasoa — samaan
   tapaan kuin suomessa, joskin eri periaattein.
 - Kohteliaisuusero näkyy pronomineissa: "నువ్వు/nuvvu" on tuttavallinen,
-  "మీరు/mīru" kunnioittava — valinta vaikuttaa myös verbin taivutukseen.
+  "మీరు/mīru" kunnioittava — valinta vaikuttaa myös verbin taivutukseen
+  (ks. alla).
+- Telugussa ei ole erillistä "olla"-verbiä omistamisen ilmaisuun, vaan
+  datiivi + olemassaolo-verbi -rakenne (ks. luku 3).
+
+## Verbin taivutus: ఉండు (uṇḍu, "olla olemassa")
+
+| Suomeksi | Telugu | ISO 15919 |
+| --- | --- | --- |
+| (minä) olen | ఉన్నాను | unnānu |
+| (sinä) olet | ఉన్నావు | unnāvu |
+| (hän, mies) on | ఉన్నాడు | unnāḍu |
+| (hän/se, nainen/neutri) on | ఉంది | undi |
+| (me) olemme | ఉన్నాము | unnāmu |
+| (te/Te, kohtelias) olette | ఉన్నారు | unnāru |
+| (he, ihmiset) ovat | ఉన్నారు | unnāru |
+| (ne, ei-ihmiset) ovat | ఉన్నాయి | unnāyi |
+
+Huomaa kaksi asiaa taivutuksessa: 3. persoonan yksikkö erottaa
+maskuliinin (**-āḍu**) muista (**-di**), ja monikko erottaa ihmiset
+(**-āru**) ei-ihmisistä (**-āyi**). Lisäksi kohtelias yksikön puhuttelu
+మీరు/mīru ottaa aina monikkomuotoisen verbin:
+
+- Tuttavallinen: నీవు ఎలా ఉన్నావు? — nīvu elā unnāvu? ("Mitä sinulle
+  kuuluu?")
+- Kohtelias: మీరు ఎలా ఉన్నారు? — mīru elā unnāru? ("Mitä Teille
+  kuuluu?") — verbi on monikossa (unnāru), vaikka puhutellaan yhtä
+  henkilöä.
+
+## SOV-sanajärjestys: esimerkki
+
+**వాడు నన్ను కొట్టాడు** — vāḍu nannu koṭṭāḍu — "Hän löi minua."
+(vāḍu = hän [subjekti], nannu = minut [objekti, akkusatiivi],
+koṭṭāḍu = löi [verbi, maskuliini yksikkö])
 
 ## Harjoitus 1: Käännä telugusta suomeksi
 
@@ -43,4 +76,17 @@ Käytä lukujen 2 ja 3 fraaseja: nā pēru / mīku / nāku ardhaṁ kālēdu
 
 <details>
 Vastaukset: 1. nā pēru — 2. mīku — 3. nāku ardhaṁ kālēdu
+</details>
+
+## Harjoitus 4: Valitse oikea verbimuoto
+
+Käytä luvun 7 ఉండు-taivutustaulukkoa.
+
+1. నీవు ఎలా _____? (Mitä sinulle kuuluu? — tuttavallinen, täydennä verbi)
+2. మీరు ఎలా _____? (Mitä Teille kuuluu? — kohtelias, täydennä verbi)
+3. ఆమె బాగా _____. (Hän [nainen] voi hyvin, täydennä verbi)
+
+<details>
+Vastaukset: 1. ఉన్నావు (unnāvu) — 2. ఉన్నారు (unnāru, monikko
+kohteliaisuuden takia) — 3. ఉంది (undi)
 </details>
