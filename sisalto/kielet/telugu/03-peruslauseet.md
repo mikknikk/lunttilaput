@@ -24,3 +24,8 @@ olemassaolo-verbi (**ఉంది**/undi) taipuu omistetun asian, ei omistajan,
 mukaan. Sama datiivi+verbi-rakenne näkyy myös lauseissa "en puhu
 telugua" (kirjaimellisesti "minulle telugu ei tule") ja "haluan..."
 ("minulle... on tahdottu").
+
+Huomaa myös taulukon ensimmäisessä lauseessa ("Mitä kuuluu?"): kun
+puhuteltavaa kohdellaan kohteliaasti sanalla మీరు/mīru, verbi
+(unnāru) on monikkomuotoinen, vaikka puhutellaan vain yhtä henkilöä —
+täysi selitys luvussa 7.

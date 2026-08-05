@@ -15,6 +15,11 @@ e- ja o-vokaalit (e/ē, o/ō), joita esim. hindissä ei tarvitse erottaa —
 telugu on yksi harvoista Intian kirjaimistoista, jossa nämä ovat omia
 kirjaimiaan eivätkä vain ääntämyksen vaihtelua.
 
+Alla olevat taulukot ovat viitemateriaalia: tarkoitus ei ole opetella
+jokaista yhdistelmää ulkoa ennen kuin jatkat seuraaviin lukuihin —
+riittää että tunnistat kirjaimiston yleispiirteet (pyöreä muoto,
+retrofleksi/dentaali-ero) ja palaat tänne tarvittaessa.
+
 ## Vokaalit (అచ్చులు)
 
 | Telugu | ISO 15919 | Telugu | ISO 15919 |
