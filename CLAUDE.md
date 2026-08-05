@@ -9,16 +9,20 @@ kirjoitettavaan sisältöön.
 
 ## Sisällön rakenne (`sisalto/`)
 
-- **Kielet/** — kielenopiskelijan näkökulmasta kirjoitettuja lunttilappuja.
-  **Tärkeä periaate:** vieraalla kirjoitusjärjestelmällä kirjoitettavat kielet
-  esitetään ensisijaisesti omalla skriptillään, ja mahdollinen translitteraatio
-  noudattaa AINA virallista ISO-standardia — ei koskaan epävirallista
-  romanisointia (esim. Hepburn japanille). Jos kielelle ei ole olemassa
-  ISO-translitterointistandardia (esim. urdu), translitterointia ei tehdä
-  lainkaan — vain natiivi kirjoitusjärjestelmä. Käytössä: ISO 15919
-  (devanagari/hindi, telugu), ISO 3602/Kunrei-shiki (japani). Indonesia on
-  poikkeuksellisesti kahdeksanosainen numeroitu oppikirjarakenne
-  (`kielet/indonesia/00-johdanto.md` jne.), ei yksittäinen lunttilappu.
+- **Kielet/** — kielenopiskelijan näkökulmasta kirjoitettuja
+  kahdeksanosaisia numeroituja oppituntisarjoja (`kielet/<kieli>/
+  00-johdanto.md` ... `07-harjoituksia.md`, ks. mallina `kielet/
+  indonesia/`) — ei yksittäisiä lunttilappuja. Kaikki viisi kieltä
+  (espanja, hindi ja urdu, indonesia, japani, telugu) noudattavat tätä
+  rakennetta. **Tärkeä periaate:** vieraalla kirjoitusjärjestelmällä
+  kirjoitettavat kielet esitetään ensisijaisesti omalla skriptillään, ja
+  mahdollinen translitteraatio noudattaa AINA virallista ISO-standardia
+  — ei koskaan epävirallista romanisointia (esim. Hepburn japanille).
+  Jos kielelle ei ole olemassa ISO-translitterointistandardia (esim.
+  urdu), translitterointia ei tehdä lainkaan — vain natiivi
+  kirjoitusjärjestelmä. Käytössä: ISO 15919 (devanagari/hindi, telugu),
+  ISO 3602/Kunrei-shiki (japani). Uutta kieltä lisättäessä säilytä sama
+  kahdeksanosainen rakenne ja sama tarkkuus translitteroinnissa.
 - **Tietokoneet/** — jaettu aihepiirikohtaisiin alikategorioihin: Shellit,
   Päätteet, Editorit (sis. `vscode/`-alikansio kolmannella tasolla),
   Tekstinkäsittely, Paketinhallinta, Järjestelmä ja tietoturva, Web-kehitys,
