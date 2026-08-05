@@ -14,7 +14,8 @@ nämä erot ja yhtäläisyydet näkyvät selvästi.
 ## Miten tämä oppikirja etenee
 
 1. **Kirjoitusjärjestelmä ja translitteraatio** — devanagari, nastaliq,
-   ja miksi vain hindille on ISO-translitteraatio.
+   hindin ISO 15919 -translitteraatio ja urdulle tätä oppikirjaa varten
+   koottu translitterointitapa.
 2. **Tervehdykset ja kohteliaisuusfraasit** — ensimmäiset käytännön
    fraasit molemmilla kirjoitusjärjestelmillä.
 3. **Peruslauseet** — nimen kysyminen, kuulumisten kysyminen ja muita

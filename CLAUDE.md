@@ -17,12 +17,25 @@ kirjoitettavaan sisältöön.
   rakennetta. **Tärkeä periaate:** vieraalla kirjoitusjärjestelmällä
   kirjoitettavat kielet esitetään ensisijaisesti omalla skriptillään, ja
   mahdollinen translitteraatio noudattaa AINA virallista ISO-standardia
-  — ei koskaan epävirallista romanisointia (esim. Hepburn japanille).
-  Jos kielelle ei ole olemassa ISO-translitterointistandardia (esim.
-  urdu), translitterointia ei tehdä lainkaan — vain natiivi
-  kirjoitusjärjestelmä. Käytössä: ISO 15919 (devanagari/hindi, telugu),
-  ISO 3602/Kunrei-shiki (japani). Uutta kieltä lisättäessä säilytä sama
-  kahdeksanosainen rakenne ja sama tarkkuus translitteroinnissa.
+  silloin kun sellainen on olemassa — ei koskaan epävirallista
+  romanisointia (esim. Hepburn japanille). Käytössä: ISO 15919
+  (devanagari/hindi, telugu), ISO 3602/Kunrei-shiki (japani). Jos
+  kielelle ei ole ISO-translitterointistandardia, OLETUS on jättää
+  translitteraatio kokonaan pois — vain natiivi kirjoitusjärjestelmä.
+  **Dokumentoitu poikkeus:** hindi ja urdu -kurssin urdu-sarakkeissa on
+  käytössä projektikohtainen, ei-ISO- ja ei-ALA-LC-translitterointi
+  (kuvattu kokonaan tiedostossa `sisalto/kielet/hindi-ja-urdu/
+  01-kirjoitusjarjestelma.md`). Poikkeuksen perusteet: yhteinen
+  hindi-urdu-kurssiformaatti hyötyy rinnakkaisesta translitteraatiosta,
+  eikä mikään olemassa oleva standardi erottele urdun kirjaimia
+  riittävän tarkasti — lähin kirjastostandardi ALA-LC yhdistää esim.
+  kirjaimen ط ja retrofleksin ٹ samaksi romanisaatioksi. Tämä on
+  poikkeus, ei uusi oletus: uutta ISO-standarditonta kieltä
+  lisättäessä pätee edelleen oletus (vain natiivi kirjoitusjärjestelmä),
+  ellei ole vastaavan vahvaa, dokumentoitua perustetta oman
+  translitterointijärjestelmän lisäämiselle. Uutta kieltä lisättäessä
+  säilytä sama kahdeksanosainen rakenne ja sama tarkkuus
+  translitteroinnissa.
 - **Tietokoneet/** — jaettu aihepiirikohtaisiin alikategorioihin: Shellit,
   Päätteet, Editorit (sis. `vscode/`-alikansio kolmannella tasolla),
   Tekstinkäsittely, Paketinhallinta, Järjestelmä ja tietoturva, Web-kehitys,
